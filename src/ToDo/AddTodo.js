@@ -32,8 +32,8 @@ const input = useInputValue('')
 
   return (
     <form style={{marginBottom: '1rem'}} onSubmit={submitHandler}>
-        <input {...input.bind}/>
-        <button type='submit'> Add todo</button>
+        <input {...input.bind} style={{width:'30rem', height:'2rem'}}/>
+        <button type='submit' style={{background: 'black', color: '#fff', width:'7rem', height:'2.5rem'}}> Add todo</button>
     </form>
   )
 }
